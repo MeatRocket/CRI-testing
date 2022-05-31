@@ -1,4 +1,13 @@
 {
-  "Readme":"/README.md",
-  "Basics.md":"/Docs/Basics.md"
+"Files":
+ [
+   {
+   "Label": "Readme",
+   "Path": "/README.md"
+  },
+   {
+   "Label": "Basics.md",
+   "Path": "/Docs/Basics.md"
+   }
+ ]
 }
