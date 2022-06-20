@@ -1,6 +1,6 @@
 
 # CRI-testing
-TODO: Write a project description
+TODO: Write a project description, testing
 ## Installation
 TODO: Describe the installation process
 ## Usage
