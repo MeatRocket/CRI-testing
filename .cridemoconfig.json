@@ -2,11 +2,11 @@
 "FileTabs":
  [
    {
-   "FileTitle": "Readme",
+   "TabTitle": "Readme",
    "Paths": ["/README.md","/Docz.md"]
   },
    {
-   "FileTitle": "Basics",
+   "TabTitle": "Basics",
    "Paths": ["/Docs/Basics.md"]
    }
  ]
