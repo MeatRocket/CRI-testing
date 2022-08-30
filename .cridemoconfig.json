@@ -2,12 +2,12 @@
 "Tabs":
  [
    {
-   "TabTitle": "Readme",
-   "Paths": ["/README.md","/Docz.md"]
+   "Title": "Readme",
+   "Path": ["/README.md","/Docz.md"]
   },
    {
-   "TabTitle": "Basics",
-   "Paths": ["/Docs/Basics.md"]
+   "Title": "Basics",
+   "Path": ["/Docs/Basics.md"]
    }
  ]
 }
