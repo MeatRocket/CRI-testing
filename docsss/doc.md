@@ -15,9 +15,9 @@ Install-Package AngryMonkey.Cloud.Geography
 ```
 
 #### .Net CLI<a name=".Net CLI"></a>
-
+``cli
 dotnet add package AngryMonkey.Cloud.Geography 
-
+```
 ### Implementation<a name="Implementation"></a>
 
 ------------
