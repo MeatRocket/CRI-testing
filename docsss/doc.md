@@ -25,7 +25,7 @@ dotnet add package AngryMonkey.Cloud.Geography
 
 #### NameSpace<a name="NameSpace"></a>
 
-```cs     
+```cs 
 using AngryMonkey.Cloud;
 using AngryMonkey.Cloud.Geography;
 ```
