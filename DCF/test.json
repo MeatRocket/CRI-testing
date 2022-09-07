@@ -1,0 +1,64 @@
+{
+    "builds":
+    [
+        {
+            "name": "dev",
+            "css": {
+                "minify": false,
+                "sourceMap": true
+            },
+            "js": {
+                "minify": false,
+                "sourceMap": true,
+                "declaration": true,
+                "webClean": true
+            }
+        },
+        {
+            "name": "dist",
+            "outDir": "dist",
+            "outDirVersioning": true,
+            "outDirName": true,
+            "css": {
+                "outDirSuffix": "css",
+                "minify": true,
+                "sourceMap": false
+            },
+            "js": {
+                "outDirSuffix": "js",
+                "minify": true,
+                "sourceMap": false
+            }
+        }
+    ],
+    "files":
+    [
+        {
+            "output": ["test/temp.txt", "test/temp2.txt"],
+            "input": "files/temp1.txt"
+        },
+        {
+            "output": "test/site.css",
+            "input": [
+                "files/cssFile.css",
+                "files/lessFile1.less",
+                "files/lessFile2.less",
+                "files/saasFile.scss"
+            ],
+            "builds": ["dev", "dist"]
+        },
+        {
+            "output": "test/site.js",
+            "input": [
+                "files/tsFile1.ts",
+                "files/tsFile2.ts"
+            ],
+            "builds": ["dev", "dist"]
+        },
+        {
+            "output": "README.md",
+            "input": "README.md",
+            "builds": "dist"
+        }
+    ]
+}
