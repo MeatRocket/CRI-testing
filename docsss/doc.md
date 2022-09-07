@@ -16,7 +16,7 @@ Install-Package AngryMonkey.Cloud.Geography
 
 #### .Net CLI<a name=".Net CLI"></a>
 
-    dotnet add package AngryMonkey.Cloud.Geography 
+dotnet add package AngryMonkey.Cloud.Geography 
 
 ### Implementation<a name="Implementation"></a>
 
@@ -32,7 +32,7 @@ using AngryMonkey.Cloud.Geography;
 
 #### Initialization<a name="Initialization"></a>
 ```cs
-     CloudGeographyClient cloudGeography = new CloudGeographyClient();
+CloudGeographyClient cloudGeography = new CloudGeographyClient();
 ```
 ### What Can You Do With It<a name="What Can You Do With It"></a>
 
@@ -40,21 +40,21 @@ using AngryMonkey.Cloud.Geography;
 
 ##### Get all available countries<a name="Get all available countries"></a>
 ```cs
-     List<Country> countries = await cloudGeography.Countries.GetAllAsync();
+List<Country> countries = await cloudGeography.Countries.GetAllAsync();
 ```
 ##### Get multiple countries by their 2 or 3 letters code<a name="Get multiple countries by their 2 or 3 letters code"></a>
 ```cs
-     List<Country> countries = await cloudGeography.Countries.GetAsync("USA", "CA");
+List<Country> countries = await cloudGeography.Countries.GetAsync("USA", "CA");
 ```
 ##### Get a specific country by its 2 or 3 letters code<a name="Get a specific country by its 2 or 3 letters code"></a>
- ```cs
-     Country country = await cloudGeography.Countries.GetAsync("US");
+```cs
+Country country = await cloudGeography.Countries.GetAsync("US");
 ```
 ##### Get languages by a specific country<a name="Get languages by a specific country"></a>
-  ```cs
-      List<CountryLanguage> languages = await cloudGeography.Languages.GetByCountryAsync("USA");
+```cs
+List<CountryLanguage> languages = await cloudGeography.Languages.GetByCountryAsync("USA");
 ```
 ##### Get currencies by a specific country<a name="Get currencies by a specific country"></a>
-  ```cs
-     List<CountryCurrency> currencies = await cloudGeography.Currencies.GetByCountryAsync("USA");
+```cs
+List<CountryCurrency> currencies = await cloudGeography.Currencies.GetByCountryAsync("USA");
 ```
