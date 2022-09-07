@@ -15,7 +15,7 @@
    },
   {
    "Title": "Different Code Files",
-   "Path": ["/Different Code Files/bundler.ts","/Different Code Files/site.html","/Different Code Files/test.js","/Different Code Files/test.json"]
+   "Path": ["/DCF/bundler.ts","/DCF/site.html","/DCF/test.js","/DCF/test.json"]
    }
  ]
 }
