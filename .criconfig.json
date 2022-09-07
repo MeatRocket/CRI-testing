@@ -12,6 +12,10 @@
   {
    "Title": "Cloud Geography",
    "Path": ["/docsss/doc.md"]
+   },
+  {
+   "Title": "Different Code Files",
+   "Path": ["/Different Code Files/bundler.ts","/Different Code Files/site.html","/Different Code Files/test.js","/Different Code Files/test.json"]
    }
  ]
 }
