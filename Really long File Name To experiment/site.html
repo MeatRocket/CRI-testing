@@ -1,0 +1,102 @@
+<h1>
+    Hello
+</h1>
+<pre>
+        <code class="language-c">
+            public void main(){
+                int i = 0;
+                i++;
+                return 1;
+            }
+        </code>
+    </pre>
+
+    <pre>
+        <code class="language-cs">
+            public IActionResult Partners()
+            {
+                CorePage("Our Partner").SetDescription("Al-Bereik Company Our Partner Page");
+                PartnersModel partnersModel = new() { Partners = GetPartners() };
+                List &lt;CountryLanguage&gt; languages = await cloudGeography.Languages.GetByCountryAsync("USA");
+               return View(partnersModel);
+            }
+        </code>
+    </pre>
+
+<pre>
+    <code class="language-cpp">
+        #include <iostream>
+
+            int main(int argc, char *argv[]) {
+            
+              /* An annoying "Hello World" example */
+              for (auto i = 0; i < 0xFFFF; i++)
+                cout << "Hello, World!" << endl;
+            
+              char c = '\n';
+              unordered_map <string, vector<string> > m;
+              m["key"] = "\\\\"; // this is an error
+            
+              return -2e3 + 12l;
+            }
+    </code>
+</pre>
+
+    <pre>
+        <code class="language-html">
+            &lt;h1&gt;
+            Hello
+        &lt;/h1&gt;
+        &lt;pre&gt;
+                &lt;code class="language-c"&gt;
+                    public void main(){
+                        int i = 0;
+                        i++;
+                        return 1;
+                    }
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        
+            &lt;pre&gt;
+                &lt;code class="language-csharp"&gt;
+                    public IActionResult Partners()
+                    {
+                        CorePage("Our Partner").SetDescription("Al-Bereik Company Our Partner Page");
+                        PartnersModel partnersModel = new() { Partners = GetPartners() };
+            
+                       return View(partnersModel);
+                    }
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        
+            &lt;pre&gt;
+                &lt;code class="language-html"&gt;
+                   &amp;lth1&amp;gt HAHAHAY   &amp;lt/h1&amp;gt
+                &lt;/code&gt;
+            &lt;/pre&gt;
+        
+        
+        &lt;link rel="stylesheet" href="./styles/default.min.css"&gt;
+        &lt;script src="./highlight.min.js"&gt;&lt;/script&gt;
+        &lt;script&gt;
+            // hljs.registerLanguage('cs', function () {
+            //     return { case_insensitive: true };
+            // });
+            hljs.highlightAll();
+        
+            console.log(document.querySelectorAll('pre code'));
+            // console.log(hljs.listLanguages());
+        &lt;/script&gt;
+        </code>
+    </pre>
+
+
+<link rel="stylesheet" href="./styles/atom-one-light.min.css">
+<script src="./highlight.min.js"></script>
+<script src="./test.js">
+    // hljs.registerLanguage('cs', function () {
+    //     return { case_insensitive: true };
+    // });
+   
+    // console.log(hljs.listLanguages());
+</script>
