@@ -18,8 +18,20 @@
    "Path": ["/DCF/bundler.ts","/DCF/site.html","/DCF/test.js","/DCF/test.json"]
    },
   {
-   "Title": "Really long File Name To experiment",
-   "Path": ["/Really long File Name To experiment/bundler.ts","/Really long File Name To experiment/site.html","/Really long File Name To experiment/test.js","/Really long File Name To experiment/test.json"]
+   "Title": "Really long File Name To experiment .ts",
+   "Path": ["/Really long File Name To experiment/bundler.ts"]
+   },
+  {
+   "Title": "Really long File Name To experiment .html",
+   "Path": ["/Really long File Name To experiment/site.html"]
+   },
+  {
+   "Title": "Really long File Name To experiment .js",
+   "Path": ["/Really long File Name To experiment/test.js"]
+   },
+  {
+   "Title": "Really long File Name To experiment .json",
+   "Path": ["/Really long File Name To experiment/test.json"]
    }
  ]
 }
