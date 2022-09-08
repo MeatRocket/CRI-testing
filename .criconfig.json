@@ -24,6 +24,10 @@
   {
    "Title": "Really long File Name To experiment",
    "Path": ["/Really long File Name To experiment/bundler.ts","/Really long File Name To experiment/site.html","/Really long File Name To experiment/test.js","/Really long File Name To experiment/test.json"]
+   },
+  {
+   "Title": "Really long File Name with 2 spaces",
+   "Path": ["/Really long File Name with 2 spaces/bundler.ts","/Really long File Name with 2 spaces/site.html","/Really long File Name with 2 spaces/test.js","/Really long File Name with 2 spaces/test.json"]
    }
  ]
 }
